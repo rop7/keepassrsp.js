@@ -26,7 +26,7 @@ db.addCredential(new kpio.Credentials.Keyfile(keyfilePath));
 db.loadFile(databasePath, function(err) {
 	if(err) throw err;
 
-    // db.getRawApi() returns the raw API of keepass.io. By calling the method get(), we will
+    // db.getRawApi() returns the raw API of keepassrsp.js. By calling the method get(), we will
     // get the whole database object as JSON. Remember though that it isn't a reference, so any
     // changes you make to the object are lost. Please use set() to keep them.
 	var rawDatabase = db.getRawApi().get();

@@ -1,5 +1,5 @@
 {
-	"name": "keepass.io",
+	"name": "keepassrsp.js",
 	"version": "1.1.4",
 	"description": "Node.js library for reading and writing KeePass databases",
 	"keywords": [
@@ -17,11 +17,11 @@
 	"author": "Pascal Mathis <dev@snapserv.net> (https://www.pascalmathis.com)",
 	"contributors": [],
 
-	"homepage": "https://www.snapserv.net/projects/keepass.io",
-	"bugs": "https://github.com/NeoXiD/keepass.io/issues",
+	"homepage": "https://www.snapserv.net/projects/keepassrsp.js",
+	"bugs": "https://github.com/NeoXiD/keepassrsp.js/issues",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/NeoXiD/keepass.io.git"
+		"url": "https://github.com/NeoXiD/keepassrsp.js.git"
 	},
 	
 	"main": "./lib/index.js",
